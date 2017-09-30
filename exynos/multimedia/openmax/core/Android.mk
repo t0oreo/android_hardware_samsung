@@ -15,7 +15,7 @@ LOCAL_ARM_MODE := arm
 
 LOCAL_STATIC_LIBRARIES := libsecosal libsecbasecomponent
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils \
-	libSEC_OMX_Resourcemanager
+	libSEC_OMX_Resourcemanager liblog
 
 LOCAL_C_INCLUDES := $(SEC_OMX_INC)/khronos \
 	$(SEC_OMX_INC)/sec \

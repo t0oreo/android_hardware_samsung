@@ -32,7 +32,8 @@ LOCAL_SHARED_LIBRARIES := libcutils libutils \
 	libhardware \
 	libandroid_runtime \
 	libbinder \
-	libmedia
+	libmedia \
+    liblog
 
 LOCAL_C_INCLUDES := $(SEC_OMX_INC)/khronos \
 	$(SEC_OMX_INC)/sec \
